@@ -1,0 +1,70 @@
+.container {
+    position: relative;
+    width: 345px;
+    height: 455px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0 0 40px 0;
+    transition: 0.5s ease all;
+}
+
+.container:hover {
+    box-shadow: 0 0 10px blue,
+        0 0 15px red;
+    /* 0 0 20px red, */
+
+}
+
+.kia {
+    width: 100%;
+    height: 219px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.divicon {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 0 7px;
+    position: absolute;
+    bottom: 5px;
+
+}
+
+.clock {
+    height: 1.2vw;
+}
+
+.user {
+    height: 1.2vw;
+    margin-left: 2vw;
+}
+
+.border {
+    border: 1px solid #DADADA;
+    width: 12vw;
+    margin: 7px 0 7px 10px;
+
+}
+
+.text1 {
+    font-size: 14px;
+    color: #3D3D3D;
+    padding: 0 10px 0 10px;
+}
+
+.text2 {
+    font-size: 13px;
+    color: #646464;
+    padding: 0 10px 0 10px;
+}
+
+div span {
+    font-size: 12px;
+}
+
+.divicon div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

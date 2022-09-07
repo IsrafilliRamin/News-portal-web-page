@@ -1,0 +1,144 @@
+.All {
+    display: flex;
+    justify-content: space-around;
+    margin: 0vw 10vw 0 10vw;
+    flex-wrap: wrap;
+    position: relative;
+    top: -2.5vw;
+
+}
+
+/* Details container start */
+
+.detailscontainer {
+    border: 2px solid grey;
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+    position: relative;
+    left: 16vw;
+    bottom: 3vw;
+    display: flex;
+    padding: 1.5vw;
+    height: 30vw;
+}
+
+.containerimg {
+    width: 45%;
+}
+
+.textconta {
+    width: 55%;
+}
+
+.conimg {
+    width: 80%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.htitle {
+    font-size: 1.5vw;
+}
+
+.contex {
+    font-size: 1vw;
+    margin-top: 3vw;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 3vw;
+    font-weight: 600;
+
+}
+
+.imd {
+    display: flex;
+
+}
+
+span {
+    margin-left: 0.3vw;
+
+}
+
+.similarbox {
+    width: 25vw;
+    position: relative;
+}
+
+.border1 {
+    border: 1px solid #DADADA;
+    width: 17vw;
+    margin: 30px 0 7px 0;
+
+}
+
+.h2h {
+    margin: 0 0 10px 130px;
+}
+
+.containersimilar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.similarnews {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8vw;
+
+    margin-bottom: 11vw;
+}
+
+.similarimg {
+    position: absolute;
+    width: 75%;
+    height: 400%;
+    border-radius: 5px;
+
+}
+
+.para {
+    position: absolute;
+    width: 50%;
+    font-size: 1.1vw;
+    left: 3vw;
+    top: 2.9vw;
+    color: #fff;
+}
+
+.clock1 {
+    height: 1.2vw;
+    position: absolute;
+    top: 10.5vw;
+    left: 0.2vw;
+}
+
+.user1 {
+    height: 1.2vw;
+    margin-left: 2vw;
+    position: absolute;
+    top: 10.5vw;
+    left: 7.7vw;
+}
+
+.sp{
+    position: absolute;
+    top: 10.5vw;
+    color: #fff;
+    left: 1.5vw;
+}
+
+.sp1{
+    position: absolute;
+    color: #fff;
+    left:11.2vw ;
+    top: 10.5vw;
+}

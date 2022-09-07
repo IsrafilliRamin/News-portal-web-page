@@ -1,0 +1,120 @@
+
+nav{
+  margin: 0;
+  padding: 0;
+  width: 950px;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+}
+
+
+ul .link {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1vw;
+   
+
+}
+ul .link{
+   z-index: 0;
+    width: 90%;
+   margin: 0 40px 0 0;
+    background-color: azure;
+    height: 3vw;
+    line-height: 3vw;
+    border-radius: 10px;
+    padding: 0 22px 0 22px;
+    transition: 400ms all;
+  
+}
+
+.active{
+   background-color: black !important;
+   color: white !important;
+   z-index: 1000;
+}
+
+ul .link:hover{
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+
+/* Responsive design */
+@media only screen and (max-width: 1280px) {
+    ul{
+        margin-left: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    ul .link {
+        width: 50%;
+        margin: 0 20px 0 30px; 
+    }
+
+}
+
+@media only screen and (max-width: 952px) {
+    nav{
+        width: 70%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .header{
+        width:100vw;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+        nav{
+            width: 23%;
+            margin-right: 30px;
+        }
+}
+@media only screen and (max-width: 768px) {
+    .header {
+        width: 100vw;
+    }
+    nav{
+        margin-right: 80px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    ul .link {
+        width: 100%;
+        margin-bottom: 5px;
+       
+    }
+    .container{
+        margin-top: 60px !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    ul .link {
+        font-size: 10px;
+        padding: 0 10px 0 10px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    ul .link {
+        font-size: 9px;
+        text-align: center;
+        width: 100%;
+        padding: 0 10px 0 10px;
+        margin-top: 10px;
+        height: 15px;
+    }
+   
+}

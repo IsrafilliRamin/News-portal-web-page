@@ -1,0 +1,10 @@
+
+
+.MainContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0vw 10vw 0 10vw;
+    flex-wrap: wrap;
+    position: relative;
+
+}
